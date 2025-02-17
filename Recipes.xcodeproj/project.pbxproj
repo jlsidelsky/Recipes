@@ -29,9 +29,25 @@
 		BF5A8E932D6383D100BB7605 /* RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BF5A8EC22D63BC1C00BB7605 /* Exceptions for "Recipes" folder in "RecipesTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Recipe.swift,
+				Models/RecipeResponse.swift,
+				Networking/CacheImages.swift,
+				Networking/RecipeService.swift,
+			);
+			target = BF5A8E882D6383D100BB7605 /* RecipesTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BF5A8E792D6383D000BB7605 /* Recipes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BF5A8EC22D63BC1C00BB7605 /* Exceptions for "Recipes" folder in "RecipesTests" target */,
+			);
 			path = Recipes;
 			sourceTree = "<group>";
 		};
