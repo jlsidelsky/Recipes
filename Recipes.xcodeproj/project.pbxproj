@@ -61,6 +61,11 @@
 			path = RecipesTests;
 			sourceTree = "<group>";
 		};
+		BF5A8EEB2D641DB700BB7605 /* Screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,7 @@
 		BF5A8E6E2D6383D000BB7605 = {
 			isa = PBXGroup;
 			children = (
+				BF5A8EEB2D641DB700BB7605 /* Screenshots */,
 				BF5A8EE82D64153C00BB7605 /* ReadME.md */,
 				BF5A8E792D6383D000BB7605 /* Recipes */,
 				BF5A8E8C2D6383D100BB7605 /* RecipesTests */,
@@ -125,6 +131,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				BF5A8E792D6383D000BB7605 /* Recipes */,
+				BF5A8EEB2D641DB700BB7605 /* Screenshots */,
 			);
 			name = Recipes;
 			packageProductDependencies = (
