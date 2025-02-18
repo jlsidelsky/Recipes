@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF5A8EE92D64153C00BB7605 /* ReadME.md in Resources */ = {isa = PBXBuildFile; fileRef = BF5A8EE82D64153C00BB7605 /* ReadME.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BF5A8E8A2D6383D100BB7605 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		BF5A8E772D6383D000BB7605 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5A8E892D6383D100BB7605 /* RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5A8E932D6383D100BB7605 /* RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5A8EE82D64153C00BB7605 /* ReadME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadME.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.documentation.markup; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -54,11 +59,6 @@
 		BF5A8E8C2D6383D100BB7605 /* RecipesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RecipesTests;
-			sourceTree = "<group>";
-		};
-		BF5A8E962D6383D100BB7605 /* RecipesUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RecipesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -91,9 +91,9 @@
 		BF5A8E6E2D6383D000BB7605 = {
 			isa = PBXGroup;
 			children = (
+				BF5A8EE82D64153C00BB7605 /* ReadME.md */,
 				BF5A8E792D6383D000BB7605 /* Recipes */,
 				BF5A8E8C2D6383D100BB7605 /* RecipesTests */,
-				BF5A8E962D6383D100BB7605 /* RecipesUITests */,
 				BF5A8E782D6383D000BB7605 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -169,9 +169,6 @@
 			dependencies = (
 				BF5A8E952D6383D100BB7605 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				BF5A8E962D6383D100BB7605 /* RecipesUITests */,
-			);
 			name = RecipesUITests;
 			packageProductDependencies = (
 			);
@@ -228,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5A8EE92D64153C00BB7605 /* ReadME.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

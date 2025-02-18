@@ -18,11 +18,15 @@ class RecipesViewModel: ObservableObject {
         case failure
     }
     
+    
+    
+
+    
     // initialize  state to idle
     @Published var state: loadingState = .idle
     private let service = RecipeService()
-    
    
+    @MainActor
     func loadRecipes(from url: URL) async {
         // set state to loading once we attempt to load the data
         state = .loading
