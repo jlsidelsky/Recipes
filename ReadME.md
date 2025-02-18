@@ -2,24 +2,28 @@
 
 - **Recipe Cards**:  
   Each recipe card displays the recipe's name, cuisine, image, a button to visit the recipe source URL (if available), and a button to add the recipe to your favorites.
-    ![Recipe Card Screenshot](Screnshots/Card.png)
+  
+    ![Recipe Card Screenshot](Screenshots/Card.png)
 
 
 - **Favorites Section**:  
   This section shows all recipe cards that have been added to your favorites in a larger format for easy reference. If no recipes are favorited, a placeholder message is displayed.
-  ![Favorites Section Screenshot](Screnshots/Favorites.png)
+  
+  ![Favorites Section Screenshot](Screenshots/Favorites.png)
 
 
 - **All Recipes Section**:  
   All recipes parsed from the JSON endpoint are displayed as recipe cards. Users can easily filter these recipes.
-  ![All Recipes Screenshot](Screnshots/All.png)
+  
+  ![All Recipes Screenshot](Screenshots/All.png)
 
 
 - **Cuisine Filters**:  
   Users can filter recipes by a specific cuisine or choose to view all recipes.
-  ![Cuisine Filters Screenshot](Screnshots/Filter.png)
   
-![Full Page Screenshot](Screnshots/Full.png)
+  ![Cuisine Filters Screenshot](Screenshots/Filter.png)
+  
+![Full Page Screenshot](Screenshots/Full.png)
 
 
 
